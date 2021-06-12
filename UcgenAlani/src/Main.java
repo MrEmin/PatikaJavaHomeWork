@@ -15,6 +15,7 @@ public class Main {
 
         System.out.print("3. Kenarı Giriniz : ");
         c= input.nextInt();
+
         cevre = a + b + c;
         u = cevre / 2;
         alan = Math.sqrt(u * (u - a) * (u - b) * (u - c));
