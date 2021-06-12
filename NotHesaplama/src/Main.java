@@ -27,7 +27,6 @@ public class Main {
         int toplam = (mat + fizik + kimya + turkce + tarih + muzik);
         double sonuc = toplam / 6.0;
 
-
         String durum = (sonuc >= 60) ? "Gecti" : "Kaldi";
         System.out.println("Durum : " + durum);
     }
