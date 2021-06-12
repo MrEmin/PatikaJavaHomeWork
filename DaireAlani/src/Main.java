@@ -10,7 +10,7 @@ public class Main {
         System.out.print("Dairenin yarı çapını giriniz : ");
         r = input.nextInt();
 
-        System.out.print("Alfa değerini giriniz : ");
+        System.out.print("Merkez açısını giriniz : ");
         a = input.nextInt();
 
         alan = (pi * (r * r) * a) / 360;
