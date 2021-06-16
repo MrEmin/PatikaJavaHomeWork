@@ -16,7 +16,7 @@ public class Main {
         System.out.print("Yolculuk tipini giriniz (1 => Tek Yön , 2 => Gidiş Dönüş ) : ");
         type = input.nextInt();
 
-        if (km > 0 && age > 0 && (type == 1 || type ==2)){
+        if (km > 0 && age > 0 && (type == 1 || type == 2)){
             ticket = pricePerKm * km;
 
             if (age < 12){
