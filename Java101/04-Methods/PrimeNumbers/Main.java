@@ -15,7 +15,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        System.out.print("Sayıyı giriniz: ");
+        System.out.print("Sayı giriniz: ");
         int number = scan.nextInt();
 
         if (prime(number, 2))
