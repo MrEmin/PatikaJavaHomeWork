@@ -7,7 +7,6 @@ public class Student {
     double avarage;
     boolean isPass;
 
-
     Student(String name, int classes, String stuNo, Course mat,Course fizik,Course kimya) {
         this.name = name;
         this.classes = classes;
