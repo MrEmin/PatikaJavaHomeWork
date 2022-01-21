@@ -10,8 +10,8 @@ public class Main {
                 transpose[j][i] = matrix[i][j];
             }
         }
-        for (int[] transposes : transpose) {
-            for (int number : transposes) {
+        for (int[] value: transpose) {
+            for (int number : value){
                 System.out.print(number + " ");
             }
             System.out.println();
